@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+
+# Env files
+.env
+
+# Binaries
+*.exe
+cloudflared*
+
+# Data that should not be pushed
+data/leads.json
+
+# Dev-only
+requirements-dev.txt
